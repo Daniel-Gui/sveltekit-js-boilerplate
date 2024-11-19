@@ -1,1 +1,5 @@
-<h1>Hello World</h1>
+<script>
+	import { Skull } from 'lucide-svelte';
+</script>
+
+<Skull />
