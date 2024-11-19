@@ -1,5 +1,1 @@
-<script>
-	import { Skull } from 'lucide-svelte';
-</script>
-
-<Skull />
+<h1>Hello Sveltekit JS</h1>
