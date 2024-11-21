@@ -1,38 +1,54 @@
-# sv
+# SvelteKit 5 JS Boilerplate 🚀
+Um boilerplate eficiente para SvelteKit, projetado para agilizar o desenvolvimento de aplicações modernas. Inclui configurações otimizadas para deploy na Cloudflare Pages e ferramentas essenciais para um fluxo de trabalho produtivo.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+📋 Funcionalidades
+- Configuração inicial simplificada: Comece rapidamente com uma estrutura pronta para uso.
+- Deploy na Cloudflare Pages: Configurações ajustadas para implementação fácil e eficiente.
+- Bibliotecas essenciais: Ferramentas populares já integradas para maximizar sua produtividade.
 
-## Creating a project
+## 📦 Libs
+- Tailwindcss + typography & forms
+- Lucide Icons
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🚀 Começando
+Pré-requisitos
+Certifique-se de ter o **Node.js e o npm instalados** em sua máquina.
+
+Instalação
+Clone o repositório:
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/Daniel-Gui/sveltekit-js-boilerplate
+cd sveltekit-js-boilerplate
 ```
+Instale as dependências:
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```bash
+npm install
+```
+Inicie o servidor local:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## 🌐 Deploy
+Para publicar sua aplicação na Cloudflare Pages, siga estas etapas:
 
-To create a production version of your app:
+Conecte o repositório GitHub:
+- Acesse a seção Pages no painel da Cloudflare.
+- Escolha "Conectar ao GitHub" e selecione o repositório deste projeto.
 
+Configure o build:
+- Diretório de saída
+```bash
+.svelte-kit/cloudflare
+```
+- Comando de build
 ```bash
 npm run build
 ```
+- Ou escolha a predefinição de SvelteKit (opcional):
+Na seleção de tecnologias, escolha a predefinição SvelteKit para configurar automaticamente as opções de build.
 
-You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
