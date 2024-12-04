@@ -1,1 +1,1 @@
-<h1>Hello Sveltekit JS</h1>
+<h1>Hello Sveltekit JS with adapter auto</h1>
